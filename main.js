@@ -10,7 +10,7 @@ $(function () {
   var moves = 0;
   var pairCount = 0;
   var canSelectCard = true;
-  
+
   function createCard(pokemon) {
     return `
     <div class="card" data-id="${pokemon.id}">
