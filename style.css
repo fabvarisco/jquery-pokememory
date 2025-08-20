@@ -14,7 +14,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-image: url("./public/assets/body_bg.png");
+  background-image: url("./assets/body_bg.png");
   min-height: 100vh;
 }
 
@@ -48,6 +48,7 @@ header {
   align-items: center;
   color: white;
   background-color: var(--main-color);
+  box-shadow: (0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
 }
 
 nav {
